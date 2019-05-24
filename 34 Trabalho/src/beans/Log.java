@@ -2,8 +2,16 @@ package beans;
 
 public class Log {
 
-	//Atributos
-	private String login, senha;
+	// Atributos
+	private String login, senha, email;
+	
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
 
 	public String getLogin() {
 		return login;
@@ -20,5 +28,5 @@ public class Log {
 	public void setSenha(String senha) {
 		this.senha = senha;
 	}
-	
+
 }
